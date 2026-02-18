@@ -97,9 +97,9 @@
     ],
     "columns": [
       "Not at all",
-      "Somewhat",
-      "Very much",
-      "Extremely"
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
     ]
   },
   {
@@ -114,9 +114,9 @@
     ],
     "columns": [
       "Not at all",
-      "Somewhat",
-      "Very much",
-      "Extremely"
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
     ]
   },
   {
@@ -131,9 +131,9 @@
     ],
     "columns": [
       "Not at all",
-      "Somewhat",
-      "Very much",
-      "Extremely"
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
     ]
   },
   {
@@ -148,9 +148,9 @@
     ],
     "columns": [
       "Not at all",
-      "Somewhat",
-      "Very much",
-      "Extremely"
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
     ]
   },
   {
@@ -165,9 +165,9 @@
     ],
     "columns": [
       "Not at all",
-      "Somewhat",
-      "Very much",
-      "Extremely"
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
     ]
   },
   {
@@ -182,9 +182,9 @@
     ],
     "columns": [
       "Not at all",
-      "Somewhat",
-      "Very much",
-      "Extremely"
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
     ]
   },
   {
@@ -199,9 +199,9 @@
     ],
     "columns": [
       "Not at all",
-      "Somewhat",
-      "Very much",
-      "Extremely"
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
     ]
   },
   {
@@ -760,9 +760,9 @@
     ],
     "columns": [
       "Not at all",
-      "Somewhat",
-      "Very much",
-      "Extremely"
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
     ]
   },
   {
@@ -777,9 +777,9 @@
     ],
     "columns": [
       "Not at all",
-      "Somewhat",
-      "Very much",
-      "Extremely"
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
     ]
   },
   {
@@ -794,9 +794,9 @@
     ],
     "columns": [
       "Not at all",
-      "Somewhat",
-      "Very much",
-      "Extremely"
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
     ]
   },
   {
@@ -811,9 +811,9 @@
     ],
     "columns": [
       "Not at all",
-      "Somewhat",
-      "Very much",
-      "Extremely"
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
     ]
   },
   {
@@ -828,9 +828,9 @@
     ],
     "columns": [
       "Not at all",
-      "Somewhat",
-      "Very much",
-      "Extremely"
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
     ]
   },
   {
@@ -845,9 +845,9 @@
     ],
     "columns": [
       "Not at all",
-      "Somewhat",
-      "Very much",
-      "Extremely"
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
     ]
   },
   {
@@ -862,9 +862,9 @@
     ],
     "columns": [
       "Not at all",
-      "Somewhat",
-      "Very much",
-      "Extremely"
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
     ]
   },
   {
@@ -879,9 +879,9 @@
     ],
     "columns": [
       "Not at all",
-      "Somewhat",
-      "Very much",
-      "Extremely"
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
     ]
   },
   {
@@ -922,7 +922,7 @@
   {
     "title": "Have you received the COVID-19 vaccine?",
     "type": "MULTIPLE_CHOICE",
-    "helpText": "",
+    "helpText": "If you selected yes, please answer the following questions about the vaccine. If you selected no, you can skip to the next section about COVID-19 involvement.",
     "isRequired": false,
     "choices": [
       "Yes",
@@ -1016,8 +1016,8 @@
   },
   {
     "title": "Since recovering from COVID-19, have you experienced any of the following that lasted at least four weeks or more? \nPhysical symptoms:",
-    "type": "MULTIPLE_CHOICE",
-    "helpText": "",
+    "type": "CHECKBOX",
+    "helpText": "You can select multiple options if you have experienced more than one symptom.",
     "isRequired": false,
     "choices": [
       "Persistent fatigue or decreased energy",
@@ -1032,8 +1032,8 @@
   },
   {
     "title": "Since recovering from COVID-19, have you experienced any of the following that lasted at least four weeks or more? \nCognitive and psychological symptoms:",
-    "type": "MULTIPLE_CHOICE",
-    "helpText": "",
+    "type": "CHECKBOX",
+    "helpText": "You can select multiple options if you have experienced more than one symptom.",
     "isRequired": false,
     "choices": [
       "Decreased concentration",
@@ -1046,8 +1046,8 @@
   },
   {
     "title": "Since recovering from COVID-19, have you experienced any of the following that lasted at least four weeks or more? \nFunctional consequences:",
-    "type": "MULTIPLE_CHOICE",
-    "helpText": "",
+    "type": "CHECKBOX",
+    "helpText": "You can select multiple options if you have experienced more than one consequence.",
     "isRequired": false,
     "choices": [
       "Decreased work or academic performance",
@@ -1433,7 +1433,8 @@
     "helpText": "",
     "isRequired": false,
     "rows": [
-      "During the pandemic"
+      "During the pandemic",
+      "After the pandemic"
     ],
     "columns": [
       "Very little",
