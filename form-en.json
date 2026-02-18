@@ -1,0 +1,1627 @@
+[
+  {
+    "title": "Informed Consent",
+    "type": "PAGE_BREAK",
+    "helpText": "",
+    "isRequired": false
+  },
+  {
+    "title": "By completing this questionnaire, you are voluntarily participating in this study. All your responses are anonymous and your information will remain confidential. You may withdraw from completing the questionnaire at any stage.",
+    "type": "CHECKBOX",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "I agree"
+    ]
+  },
+  {
+    "title": "Demographic Information",
+    "type": "PAGE_BREAK",
+    "helpText": "",
+    "isRequired": false
+  },
+  {
+    "title": "Age",
+    "type": "TEXT",
+    "helpText": "",
+    "isRequired": false
+  },
+  {
+    "title": "Gender",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Male",
+      "Female"
+    ]
+  },
+  {
+    "title": "Marital Status",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Single",
+      "Married",
+      "Widowed",
+      "Divorced"
+    ]
+  },
+  {
+    "title": "Education",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Below High School Diploma",
+      "High School Diploma",
+      "Bachelor's Degree",
+      "Graduate Degree (Master's or Higher)"
+    ]
+  },
+  {
+    "title": "Occupation",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Healthcare Worker",
+      "Employee",
+      "Worker",
+      "Self-employed",
+      "Unemployed"
+    ]
+  },
+  {
+    "title": "Country of residence during the COVID-19 pandemic",
+    "type": "TEXT",
+    "helpText": "",
+    "isRequired": false
+  },
+  {
+    "title": "GAD-7",
+    "type": "PAGE_BREAK",
+    "helpText": "Over the last two weeks, how often have you been bothered by any of the following problems?",
+    "isRequired": false
+  },
+  {
+    "title": "Feeling nervous, anxious, or on edge",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "Before the pandemic",
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Not at all",
+      "Somewhat",
+      "Very much",
+      "Extremely"
+    ]
+  },
+  {
+    "title": "Not being able to stop or control worrying",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "Before the pandemic",
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Not at all",
+      "Somewhat",
+      "Very much",
+      "Extremely"
+    ]
+  },
+  {
+    "title": "Worrying too much about different things",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "Before the pandemic",
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Not at all",
+      "Somewhat",
+      "Very much",
+      "Extremely"
+    ]
+  },
+  {
+    "title": "Trouble relaxing",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "Before the pandemic",
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Not at all",
+      "Somewhat",
+      "Very much",
+      "Extremely"
+    ]
+  },
+  {
+    "title": "Being so restless that it is hard to sit still",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "Before the pandemic",
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Not at all",
+      "Somewhat",
+      "Very much",
+      "Extremely"
+    ]
+  },
+  {
+    "title": "Becoming easily annoyed or irritable",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "Before the pandemic",
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Not at all",
+      "Somewhat",
+      "Very much",
+      "Extremely"
+    ]
+  },
+  {
+    "title": "Feeling afraid as if something awful might happen",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "Before the pandemic",
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Not at all",
+      "Somewhat",
+      "Very much",
+      "Extremely"
+    ]
+  },
+  {
+    "title": "If you checked off any problems, how difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Not difficult at all",
+      "Somewhat difficult",
+      "Very difficult",
+      "Extremely difficult"
+    ]
+  },
+  {
+    "title": "PIP-40",
+    "type": "PAGE_BREAK",
+    "helpText": "",
+    "isRequired": false
+  },
+  {
+    "title": "1- To what extent did you feel that official information about COVID-19 was incorrect?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "2- To what extent did you believe the COVID-19 virus was intentionally created or part of a conspiracy?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "3- To what extent did you have doubts about the effectiveness of medical science during the COVID-19 pandemic?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "4- To what extent did you think your health depends more on your own willpower?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "5- To what extent did you doubt media warnings about COVID-19?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "6- To what extent did seeing the state of society make you feel as if you were ill?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "7- To what extent did you feel that others understood your illness condition?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "8- To what extent were you worried that doctors might not correctly diagnose your condition?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "9- To what extent did thinking about COVID-19 make you feel anxious?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "10- To what extent did fear of the disease interfere with your sleep?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "11- To what extent did the societal lockdown affect your physical and mental health?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "12- To what extent did the behavior of those around you during COVID-19 affect you?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "13- To what extent did you experience sudden panic attacks or heart palpitations regarding COVID-19?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "14- To what extent did hearing news of patient deaths make you feel helpless or terrified?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "15- To what extent did you feel you should monitor your physical symptoms?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "16- To what extent were you still worried about its return after recovering from COVID-19?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "17- To what extent has your mood changed compared to before the COVID-19 pandemic?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "18- To what extent did you experience restlessness for no apparent reason after recovering from COVID-19?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "19- To what extent did you feel your morale was struggling to return to its previous state after recovering from COVID-19?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "20- To what extent did you avoid entering public places?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "21- To what extent had you limited physical contact with others?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "22- To what extent did you use masks, gloves, and disinfectants?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "23- To what extent did you postpone visiting medical centers due to fear of hospitalization?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "24- To what extent did you spend time searching for COVID-19 symptoms and news in the media?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "25- To what extent did you prevent your children from going to school or having contact with others?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "26- To what extent have you had hesitation or resistance regarding the COVID-19 vaccine?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "27- To what extent did you feel relaxed seeing your doctor's face without a mask?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "28- To what extent have your behaviors during the COVID-19 pandemic persisted after the end of the pandemic?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "29- To what extent do you experience anxiety and fear when hearing the name COVID-19 after the end of the pandemic?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "30- To what extent do you become anxious when others sneeze or cough near you after the end of the COVID-19 pandemic?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "31- Do you feel that COVID-19 news has affected your judgments?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "32- Do you feel that COVID-19 has caused a lasting sense of worry in you?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "33- Have your protective behaviors increased after the COVID-19 pandemic?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "34- Do you feel your relationship with others has changed after the COVID-19 pandemic?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "35- Do you notice your bodily symptoms more after the COVID-19 pandemic?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "36- Has COVID-19 changed your outlook on life?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "37- You thought if your mind was strong, COVID-19 could not harm you.",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "38- Has your trust in the healthcare system decreased compared to before the COVID-19 pandemic?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "39- Even without symptoms, you became worried when hearing the death statistics from COVID-19.",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "40- You feel you are no longer as healthy as you were before the COVID-19 pandemic.",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "PHQ-9",
+    "type": "PAGE_BREAK",
+    "helpText": "Over the last two weeks, how often have you been bothered by any of the following problems?",
+    "isRequired": false
+  },
+  {
+    "title": "Little interest or pleasure in doing things",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "Before the pandemic",
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Not at all",
+      "Somewhat",
+      "Very much",
+      "Extremely"
+    ]
+  },
+  {
+    "title": "Feeling down, depressed, or hopeless",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "Before the pandemic",
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Not at all",
+      "Somewhat",
+      "Very much",
+      "Extremely"
+    ]
+  },
+  {
+    "title": "Trouble falling or staying asleep, or sleeping too much",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "Before the pandemic",
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Not at all",
+      "Somewhat",
+      "Very much",
+      "Extremely"
+    ]
+  },
+  {
+    "title": "Feeling tired or having little energy",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "Before the pandemic",
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Not at all",
+      "Somewhat",
+      "Very much",
+      "Extremely"
+    ]
+  },
+  {
+    "title": "Poor appetite or overeating",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "Before the pandemic",
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Not at all",
+      "Somewhat",
+      "Very much",
+      "Extremely"
+    ]
+  },
+  {
+    "title": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "Before the pandemic",
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Not at all",
+      "Somewhat",
+      "Very much",
+      "Extremely"
+    ]
+  },
+  {
+    "title": "Trouble concentrating on things, such as reading the newspaper or watching television",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "Before the pandemic",
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Not at all",
+      "Somewhat",
+      "Very much",
+      "Extremely"
+    ]
+  },
+  {
+    "title": "Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "Before the pandemic",
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Not at all",
+      "Somewhat",
+      "Very much",
+      "Extremely"
+    ]
+  },
+  {
+    "title": "Thoughts that you would be better off dead or of hurting yourself in some way",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "Before the pandemic",
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Not at all",
+      "Somewhat",
+      "Very much",
+      "Extremely"
+    ]
+  },
+  {
+    "title": "If you checked off any problems, how difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Not difficult at all",
+      "Somewhat difficult",
+      "Very difficult",
+      "Extremely difficult"
+    ]
+  },
+  {
+    "title": "Vaccination",
+    "type": "PAGE_BREAK",
+    "helpText": "",
+    "isRequired": false
+  },
+  {
+    "title": "Have you received the COVID-19 vaccine?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Yes",
+      "No",
+      "I don't remember"
+    ]
+  },
+  {
+    "title": "In total, how many doses of the COVID-19 vaccine have you received?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "One dose",
+      "Two doses",
+      "Three doses",
+      "Four doses or more",
+      "I don't remember"
+    ]
+  },
+  {
+    "title": "Which type of COVID-19 vaccines have you received?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Pfizer",
+      "AstraZeneca",
+      "Moderna",
+      "Sputnik",
+      "Johnson & Johnson",
+      "Sinopharm",
+      "Novavax",
+      "I don't remember"
+    ]
+  },
+  {
+    "title": "When did you receive the most vaccine doses?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Before contracting COVID-19",
+      "After contracting COVID-19",
+      "Both (before and after)",
+      "I don't remember"
+    ]
+  },
+  {
+    "title": "Involvement with COVID-19",
+    "type": "PAGE_BREAK",
+    "helpText": "",
+    "isRequired": false
+  },
+  {
+    "title": "Have you ever been infected with COVID-19?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Yes",
+      "No",
+      "I'm not sure",
+      "I prefer not to answer"
+    ]
+  },
+  {
+    "title": "In total, how many times have you been infected with COVID-19?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Once",
+      "Twice",
+      "Three times or more",
+      "I don't remember"
+    ]
+  },
+  {
+    "title": "How severe was your COVID-19 infection?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Asymptomatic / Mild (treated at home)",
+      "Moderate (required medical visit without hospitalization)",
+      "Severe (hospitalized)",
+      "Very severe (admitted to ICU)",
+      "I don't remember"
+    ]
+  },
+  {
+    "title": "Since recovering from COVID-19, have you experienced any of the following that lasted at least four weeks or more? \nPhysical symptoms:",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Persistent fatigue or decreased energy",
+      "Shortness of breath or feeling of air hunger",
+      "Muscle or joint pain",
+      "Chest pain or palpitations",
+      "Chronic cough",
+      "Frequent headaches",
+      "Loss of smell or taste",
+      "Persistent digestive problems"
+    ]
+  },
+  {
+    "title": "Since recovering from COVID-19, have you experienced any of the following that lasted at least four weeks or more? \nCognitive and psychological symptoms:",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Decreased concentration",
+      "Forgetfulness or mental slowness",
+      "Persistent anxiety or worry about health",
+      "Symptoms of depression or lack of motivation",
+      "Irritability or mood swings",
+      "Sleep disturbance"
+    ]
+  },
+  {
+    "title": "Since recovering from COVID-19, have you experienced any of the following that lasted at least four weeks or more? \nFunctional consequences:",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Decreased work or academic performance",
+      "Limitations in daily activities",
+      "Increased visits to healthcare facilities or doctors",
+      "Mental dependence or tracking physical symptoms",
+      "None of the above",
+      "I don't remember",
+      "I prefer not to answer"
+    ]
+  },
+  {
+    "title": "Somatic Symptoms",
+    "type": "PAGE_BREAK",
+    "helpText": "",
+    "isRequired": false
+  },
+  {
+    "title": "What were your symptoms and their severity during the COVID-19 infection? (You may select multiple options)",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "Fever",
+      "Cough",
+      "Fatigue",
+      "Muscle or body aches",
+      "Headache",
+      "Sore throat",
+      "Shortness of breath",
+      "Smell loss",
+      "Taste loss",
+      "Digestive symptoms",
+      "Chest pain"
+    ],
+    "columns": [
+      "None",
+      "Mild",
+      "Moderate",
+      "Severe",
+      "I don't remember"
+    ]
+  },
+  {
+    "title": "Which diagnostic method was performed for you when you had COVID-19? (You may select more than one)",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "CT Scan",
+      "PCR Test"
+    ],
+    "columns": [
+      "Did not perform",
+      "Performed, result was positive",
+      "Performed, result was negative"
+    ]
+  },
+  {
+    "title": "Past Psychological History",
+    "type": "PAGE_BREAK",
+    "helpText": "",
+    "isRequired": false
+  },
+  {
+    "title": "Question 1: Before the start of the COVID-19 pandemic (before 2020), did you have a history of any psychiatric disorder or problem diagnosed by a doctor or psychotherapist?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "No",
+      "Yes",
+      "I don't remember",
+      "I prefer not to answer"
+    ]
+  },
+  {
+    "title": "History of Psychiatric Illness Before COVID-19",
+    "type": "PAGE_BREAK",
+    "helpText": "",
+    "isRequired": false
+  },
+  {
+    "title": "Please check any of the following that you had before COVID-19. (You may select more than one)",
+    "type": "CHECKBOX",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Depressive disorder",
+      "Obsessive-compulsive disorder (OCD)",
+      "Post-traumatic stress disorder (PTSD)",
+      "Panic disorder",
+      "Sleep disorders",
+      "Psychotic disorders",
+      "Bipolar disorder",
+      "Substance-related disorders",
+      "Eating disorders",
+      "I don't remember",
+      "I prefer not to answer"
+    ]
+  },
+  {
+    "title": "Question 2: What was the general status of these problems before the COVID-19 pandemic?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Mild and controlled",
+      "Moderate",
+      "Severe or disabling",
+      "I don't remember",
+      "I prefer not to answer"
+    ]
+  },
+  {
+    "title": "Question 3: Were you receiving treatment for these problems before the COVID-19 pandemic?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "No",
+      "Yes, medication only",
+      "Yes, psychotherapy only",
+      "Yes, combination therapy",
+      "I don't remember",
+      "I prefer not to answer"
+    ]
+  },
+  {
+    "title": "Past Medical History",
+    "type": "PAGE_BREAK",
+    "helpText": "",
+    "isRequired": false
+  },
+  {
+    "title": "Before the start of the COVID-19 pandemic (before 2020), did you have a history of any physical illness diagnosed by a doctor?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "No",
+      "Yes",
+      "I don't remember",
+      "I prefer not to answer"
+    ]
+  },
+  {
+    "title": "Physical Problems Before the COVID-19 Pandemic",
+    "type": "PAGE_BREAK",
+    "helpText": "",
+    "isRequired": false
+  },
+  {
+    "title": "If you have a history of physical illness, please check those you have had for more than 6 months (You may select more than one):",
+    "type": "CHECKBOX",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Cardiovascular diseases",
+      "Diabetes",
+      "Chronic lung diseases",
+      "Kidney diseases",
+      "Autoimmune and rheumatologic diseases",
+      "Chronic digestive diseases",
+      "Neurological diseases",
+      "Cancer",
+      "Chronic pain diseases (back pain, etc.)",
+      "I don't remember",
+      "I prefer not to answer"
+    ]
+  },
+  {
+    "title": "What was the general status of these illnesses before the COVID-19 pandemic?",
+    "type": "MULTIPLE_CHOICE",
+    "helpText": "",
+    "isRequired": false,
+    "choices": [
+      "Mild and controlled",
+      "Moderate",
+      "Severe or disabling",
+      "I don't remember",
+      "I prefer not to answer"
+    ]
+  },
+  {
+    "title": "Whiteley-4",
+    "type": "PAGE_BREAK",
+    "helpText": "",
+    "isRequired": false
+  },
+  {
+    "title": "Have you ever felt that the slightest change or symptom in your body is a sign of a serious illness?",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "Before the pandemic",
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "When you hear about a specific illness, do you worry that you might also have it?",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "Before the pandemic",
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "Do you visit the doctor or perform tests frequently to ensure your health?",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "Before the pandemic",
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "When a doctor says there's no problem, do you still think there might be a hidden illness?",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "Before the pandemic",
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much"
+    ]
+  },
+  {
+    "title": "Sheehan-3",
+    "type": "PAGE_BREAK",
+    "helpText": "",
+    "isRequired": false
+  },
+  {
+    "title": "1- To what extent have psychological or physical problems interfered with your occupational or academic performance?",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Mild impairment",
+      "Moderate impairment",
+      "Severe impairment",
+      "Very severe impairment",
+      "I don't remember or prefer not to answer"
+    ]
+  },
+  {
+    "title": "2- To what extent has your social life or leisure activities been disrupted?",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Mild impairment",
+      "Moderate impairment",
+      "Severe impairment",
+      "Very severe impairment",
+      "I don't remember or prefer not to answer"
+    ]
+  },
+  {
+    "title": "To what extent has your family life or roles at home been disrupted?",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Mild impairment",
+      "Moderate impairment",
+      "Severe impairment",
+      "Very severe impairment",
+      "I don't remember or prefer not to answer"
+    ]
+  },
+  {
+    "title": "PVS-6",
+    "type": "PAGE_BREAK",
+    "helpText": "",
+    "isRequired": false
+  },
+  {
+    "title": "I get upset easily",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much",
+      "I don't remember or prefer not to answer"
+    ]
+  },
+  {
+    "title": "I am easily hurt by criticism from others",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much",
+      "I don't remember or prefer not to answer"
+    ]
+  },
+  {
+    "title": "I often feel vulnerable to the world around me",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much",
+      "I don't remember or prefer not to answer"
+    ]
+  },
+  {
+    "title": "I am very sensitive to how others treat me.",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "During the pandemic"
+    ],
+    "columns": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much",
+      "I don't remember or prefer not to answer"
+    ]
+  },
+  {
+    "title": "I am easily emotionally disturbed",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much",
+      "I don't remember or prefer not to answer"
+    ]
+  },
+  {
+    "title": "I often feel that I am not strong enough to cope with the stresses of life",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much",
+      "I don't remember or prefer not to answer"
+    ]
+  },
+  {
+    "title": "FCV-7",
+    "type": "PAGE_BREAK",
+    "helpText": "",
+    "isRequired": false
+  },
+  {
+    "title": "I am most afraid of COVID-19.",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much",
+      "I don't remember or prefer not to answer"
+    ]
+  },
+  {
+    "title": "It makes me uncomfortable to think about COVID-19.",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much",
+      "I don't remember or prefer not to answer"
+    ]
+  },
+  {
+    "title": "My hands become clammy when I think about COVID-19.",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much",
+      "I don't remember or prefer not to answer"
+    ]
+  },
+  {
+    "title": "I am afraid of losing my life because of COVID-19.",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much",
+      "I don't remember or prefer not to answer"
+    ]
+  },
+  {
+    "title": "When watching news and stories about COVID-19 on social media, I become nervous or anxious.",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much",
+      "I don't remember or prefer not to answer"
+    ]
+  },
+  {
+    "title": "I cannot sleep because I’m worrying about getting COVID-19.",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much",
+      "I don't remember or prefer not to answer"
+    ]
+  },
+  {
+    "title": "My heart races or palpitates when I think about getting COVID-19.",
+    "type": "GRID",
+    "helpText": "",
+    "isRequired": false,
+    "rows": [
+      "During the pandemic",
+      "After the pandemic"
+    ],
+    "columns": [
+      "Very little",
+      "Little",
+      "Moderate",
+      "Much",
+      "Very much",
+      "I don't remember or prefer not to answer"
+    ]
+  },
+  {
+    "title": "Completion",
+    "type": "PAGE_BREAK",
+    "helpText": "We sincerely thank you for the time you spent completing this questionnaire. Your participation contributes to a deeper scientific understanding of health experiences during and after the pandemic.",
+    "isRequired": false
+  },
+  {
+    "title": "If you wish, you can optionally describe in a few sentences what was the most significant feeling, worry, or experience that remained in your mind during that period, and how it affected your view of your body, health, or the future. This section is not mandatory and responses will remain completely anonymous.",
+    "type": "PARAGRAPH_TEXT",
+    "helpText": "",
+    "isRequired": false
+  }
+]
