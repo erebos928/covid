@@ -3,13 +3,13 @@
     "title": "رضایت برای محفوظ ماندن اطلاعات",
     "type": "PAGE_BREAK",
     "helpText": "",
-    "isRequired": false
+    "isRequired": true
   },
   {
     "title": "با تکمیل این پرسشنامه، شما داوطلبانه در این مطالعه شرکت می‌کنید. تمامی پاسخ‌های شما ناشناس بوده و اطلاعات شما محرمانه باقی می‌ماند. شما در هر مرحله می‌توانید از ادامه تکمیل پرسشنامه خودداری کنید.",
     "type": "CHECKBOX",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "موافقم"
     ]
@@ -18,19 +18,19 @@
     "title": "مشخصات جمعیت شناختی",
     "type": "PAGE_BREAK",
     "helpText": "",
-    "isRequired": false
+    "isRequired": true
   },
   {
     "title": "سن",
     "type": "TEXT",
     "helpText": "",
-    "isRequired": false
+    "isRequired": true
   },
   {
     "title": "جنسیت",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "مرد",
       "زن"
@@ -40,7 +40,7 @@
     "title": "وضعیت تاهل",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "مجرد",
       "متاهل",
@@ -52,7 +52,7 @@
     "title": "تحصیلات",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "زیر دیپلم",
       "دیپلم",
@@ -64,7 +64,7 @@
     "title": "شغل",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "شاغل در بخش سلامت",
       "کارمند",
@@ -77,19 +77,19 @@
     "title": "کشور محل زندگی در دوران همه گیری کووید 19",
     "type": "TEXT",
     "helpText": "",
-    "isRequired": false
+    "isRequired": true
   },
   {
     "title": "GAD-7",
     "type": "PAGE_BREAK",
     "helpText": "در دو هفته گذشته چند وقت یک بار از مشکلات زیر رنج برده اید؟ ",
-    "isRequired": false
+    "isRequired": true
   },
   {
     "title": "احساس عصبی بودن و بی قراری",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
         "rows": [
       "قبل از همه گیری",
       "حین همه گیری",
@@ -106,7 +106,7 @@
     "title": "ناتوانی در کنترل یا توقف نگرانی",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
         "rows": [
       "قبل از همه گیری",
       "حین همه گیری",
@@ -124,7 +124,7 @@
     "title": "نگرانی بیش از حد در مورد چیزهای مختلف",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
         "rows": [
       "قبل از همه گیری",
       "حین همه گیری",
@@ -141,7 +141,7 @@
     "title": "مشکل آرامش",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
         "rows": [
       "قبل از همه گیری",
       "حین همه گیری",
@@ -158,7 +158,7 @@
     "title": "انقدر بیقرار بودن که آرام نشستن دشوار است",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
         "rows": [
       "قبل از همه گیری",
       "حین همه گیری",
@@ -175,7 +175,7 @@
     "title": "به راحتی آزرده یا تحریک پذیر شدن",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
         "rows": [
       "قبل از همه گیری",
       "حین همه گیری",
@@ -192,7 +192,7 @@
     "title": "احساس ترس انگار که اتفاق وحشتناکی ممکن است رخ دهد",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
         "rows": [
       "قبل از همه گیری",
       "حین همه گیری",
@@ -209,7 +209,7 @@
     "title": "اگر هر یک از مشکلات بالا را داشته اید  تا چه حد این مشکلات برای شما درمحیط کار ،خانه یا ارتباط با دیگران دشواری ایجاد کرده است ؟",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
         "rows": [
       "قبل از همه گیری",
       "حین همه گیری",
@@ -226,14 +226,14 @@
     "title": "PIP-40",
     "type": "PAGE_BREAK",
     "helpText": "",
-    "isRequired": false
+    "isRequired": true
   },
   {
     "title": "1- چه مقدار احساس می کردید اطلاعات رسمی درباره کوید19 نادرست است؟",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
-    "columns": [
+    "isRequired": true,
+    "choices": [
       "خیلی کم",
       "کم",
       "متوسط",
@@ -245,7 +245,7 @@
     "title": "2- چه مقدار باور داشتید ویروس کوید19 عمدا ساخته شده یا بخشی از یک توطئه بوده است؟",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -258,7 +258,7 @@
     "title": "3- چه مقدار نسبت به اثربخشی علم پزشکی در همه گیری کوید19 تردید داشتید؟",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -271,7 +271,7 @@
     "title": "4-   چه مقدار فکر می کردید سلامتی شما بیشتر به اراده‌ی خودتان بستگی دارد؟ ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -284,7 +284,7 @@
     "title": "5- چه مقدار به هشدارهای رسانه ها درباره ی بیماری کوید19شک داشتید؟  ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -297,7 +297,7 @@
     "title": "6-  چه مقدار دیدن وضعیت جامعه به شما تلقین می کرد که بیمار هستید؟  ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -310,7 +310,7 @@
     "title": "7-  چه مقدار احساس می کردید دیگران وضعیت بیماری شما را درک می کنند؟  ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -323,7 +323,7 @@
     "title": "8-  چه مقدار نگران بودید که پزشکان تشخیص درستی از وضعیت شما نداشته باشند؟  ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -336,7 +336,7 @@
     "title": "9- چه مقدار از فکر کردن به بیماری کوید19 دچار اضطراب می شدید؟ ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -349,7 +349,7 @@
     "title": "10- چه مقدار ترس از بیماری باعث اختلال در خوابتان شده بود؟",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -362,7 +362,7 @@
     "title": "11- چه مقدار قرنطینه جامعه بر جسم و روح شما تأثیر گذاشته بود؟ ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -375,7 +375,7 @@
     "title": "12- چه مقدار رفتار اطرافیان در هنگام بیماری کوید19بر شما تأثیر داشته است؟ ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -388,7 +388,7 @@
     "title": "13- چه مقدار نسبت به بیماری کوید19 دچار حملات ناگهانی ترس یا تپش قلب می‌شدید؟ ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -401,7 +401,7 @@
     "title": "14- چه مقدار با شنیدن اخبار مرگ بیماران دچار احساس ناتوانی یا وحشت می‌شدید؟ ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -414,7 +414,7 @@
     "title": "15- چه مقدار احساس می‌کردید باید مراقب علائم جسمی خود باشید؟ ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -427,7 +427,7 @@
     "title": "16- چه مقدار پس از بهبود یافتن از بیماری کوید19هنوز از بازگشت آن نگران بودید؟ ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -440,7 +440,7 @@
     "title": "17- چه مقدار خلق و خوی شما نسبت به قبل از همه‌گیری کوید19 تغییر کرده است؟ ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -453,7 +453,7 @@
     "title": "18- چه مقدار پس از بهبودی از بیماری خود در همه‌گیری کوید19 بدون علت مشخصی بی‌قراری داشتید؟ ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -466,7 +466,7 @@
     "title": "19- چه مقدار پس از بهبودی از بیماری کوید19 حس می‌کردید روحیه‌تان به سختی به حالت قبل بازمی‌گردد؟ ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -479,7 +479,7 @@
     "title": "20- چه مقدار از ورود به مکان‌های عمومی خودداری می‌کردید؟ ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -492,7 +492,7 @@
     "title": "21-  چه مقدار تماس فیزیکی با اطرافیان را محدود کرده بودید؟  ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -505,7 +505,7 @@
     "title": "22 چه مقدار از ماسک، دستکش و مواد ضدعفونی کننده استفاده می‌کردید؟",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -518,7 +518,7 @@
     "title": "23- چه مقدار مراجعه به مراکز درمانی را به دلیل ترس از بستری شدن به تعویق می‌انداختید؟  ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -531,7 +531,7 @@
     "title": "24-  چه مقدار از زمان خود را صرف جستجوی علائم و اخبار بیماری کوید19در رسانه‌ها می‌کردید؟  ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -544,7 +544,7 @@
     "title": "25- چه مقدار از چه مقدار از رفتن فرزندان خود به مدرسه یا تماس آنها با دیگران جلوگیری می کردید؟ ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -557,7 +557,7 @@
     "title": "26-   چه مقدار برای تزریق واکسن کوید19تردید یا مقاومت داشته اید؟ ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -570,7 +570,7 @@
     "title": "27- چه مقدار از دیدن چهره‌ی بدون ماسک پزشک خود احساس آرامش می‌کردید؟",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -583,7 +583,7 @@
     "title": "28- چه مقدار از رفتارهای شما در دوران همه گیری کوید19 پس از پایان همه گیری باقی مانده است؟ ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -596,7 +596,7 @@
     "title": "29- چه مقدار پس از پایان همه گیری با شنیدن نام کوید19 دچار اضطراب و ترس می‌شوید؟ ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -609,7 +609,7 @@
     "title": "30-چه مقدار پس از پایان همه گیری کوید19 با عطسه یا سرفه دیگران در کنار خود مضطرب می‌شوید؟ ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -622,7 +622,7 @@
     "title": "31- آیا احساس می‌کنید اخبار بیماری کوید19روی قضاوتهای شما اثر گذاشته است؟  ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -635,7 +635,7 @@
     "title": "32- آیا احساس می‌کنید کوید19 باعث شده احساس نگرانی در شما ماندگار شود؟  ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -648,7 +648,7 @@
     "title": "33- آیا رفتارهای حفاظتی شما بعد از همه گیری کوید19  بیشتر شده است؟  ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -661,7 +661,7 @@
     "title": "34- آیا بعد از همه گیری کوید19 احساس می‌کنید ارتباطتان با دیگران تغییر کرده است؟  ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -674,7 +674,7 @@
     "title": "35- آیا بعد از همه گیری کوید19 بیشتر متوجه علائم بدن خود می‌شوید؟  ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -687,7 +687,7 @@
     "title": "36- آیا کوید19 نگاه شما به زندگی را تغییر داده است؟  ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -700,7 +700,7 @@
     "title": "37- فکر می‌کردید اگر ذهنتان قوی باشد، بیماری کوید19 نمی‌تواند به شما آسیب بزند.  ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -713,7 +713,7 @@
     "title": "38- اعتماد شما به سیستم درمانی نسبت به قبل از همه گیری کوید19 کمتر  شده است؟  ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -726,7 +726,7 @@
     "title": "39- حتی بدون علامت، با شنیدن آمار مرگ بیماران ناشی از کوید19 نگران می‌شدید؟.  ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -739,7 +739,7 @@
     "title": "40- احساس می‌کنید دیگر مثل قبل از همه گیری کوید19 سالم نیستید ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیلی کم",
       "کم",
@@ -752,13 +752,13 @@
     "title": "PHQ-9",
     "type": "PAGE_BREAK",
     "helpText": "  در دو هفته گذشته چند وقت یکبار از مشکلات زیر رنج برده‌اید؟  ",
-    "isRequired": false
+    "isRequired": true
   },
   {
     "title": "  علاقه کم یا لذت اندک در انجام کارها  ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
         "rows": [
       "قبل از همه گیری",
       "حین همه گیری",
@@ -775,7 +775,7 @@
     "title": "احساس غم، افسردگی، یا ناامیدی ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
         "rows": [
       "قبل از همه گیری",
       "حین همه گیری",
@@ -792,7 +792,7 @@
     "title": "مشکل در به خواب رفتن، تداوم خواب یا خواب بیش از حد ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
         "rows": [
       "قبل از همه گیری",
       "حین همه گیری",
@@ -809,7 +809,7 @@
     "title": "احساس خستگی یا کمبود انرژی ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
         "rows": [
       "قبل از همه گیری",
       "حین همه گیری",
@@ -826,7 +826,7 @@
     "title": "اشتهای کم یا پرخوری ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
         "rows": [
       "قبل از همه گیری",
       "حین همه گیری",
@@ -843,7 +843,7 @@
     "title": "احساس بد نسبت به خود یا اینکه یک فرد شکست خورده هستید یا خود و خانواده‌تان را ناامید کرده‌اید ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
         "rows": [
       "قبل از همه گیری",
       "حین همه گیری",
@@ -860,7 +860,7 @@
     "title": "دشواری در تمرکز بر کارها مانند خواندن روزنامه یا تماشای تلویزیون",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
         "rows": [
       "قبل از همه گیری",
       "حین همه گیری",
@@ -877,7 +877,7 @@
     "title": "کاهش سرعت حرکات و صحبت کردن به‌گونه‌ای که دیگران متوجه آن شده باشند یا برعکس افزایش سرعت انجام حرکات و بیقراری",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
         "rows": [
       "قبل از همه گیری",
       "حین همه گیری",
@@ -894,7 +894,7 @@
     "title": "افکاری مبنی بر اینکه بهتر است بمیرید یا فکر صدمه زدن به خود ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
         "rows": [
       "قبل از همه گیری",
       "حین همه گیری",
@@ -911,7 +911,7 @@
     "title": "اگر هر یک از مشکلات بالا رداشته اید تا چه حد این مشکلات برای شما درمحیط کار ،خانه یا ارتباط با دیگران دشواری ایجاد کرده است؟",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "rows": [
       "قبل از همه گیری",
       "حین همه گیری",
@@ -928,13 +928,13 @@
     "title": "واکسیناسیون",
     "type": "PAGE_BREAK",
     "helpText": "",
-    "isRequired": false
+    "isRequired": true
   },
   {
     "title": "  آیا واکسن کرونا دریافت کرده‌اید؟  ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "در صورت مثبت بودن جواب به سوالات بعدی در مورد واکسیناسیون پاسخ داده شود",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "بله",
       "خیر",
@@ -945,7 +945,7 @@
     "title": "در مجموع چند دوز واکسن کرونا دریافت کرده‌اید؟ ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "یک دوز",
       "دو دوز",
@@ -958,7 +958,7 @@
     "title": "کدام نوع از واکسن‌های کرونا را دریافت کرده‌اید؟ ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "فایزر",
       "آسترازنکا",
@@ -974,7 +974,7 @@
     "title": "بیشترین دوز واکسن را چه زمانی دریافت کرده‌اید؟ ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "قبل از ابتلا به کرونا",
       "بعد از ابتلا",
@@ -986,13 +986,13 @@
     "title": "Involve with Covid-19",
     "type": "PAGE_BREAK",
     "helpText": "",
-    "isRequired": false
+    "isRequired": true
   },
   {
     "title": "  آیا تاکنون به بیماری کوید19مبتلا شده‌اید؟  ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "بله",
       "خیر",
@@ -1004,7 +1004,7 @@
     "title": "در مجموع چند بار به کوید19 مبتلا شده‌اید؟ ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "یک بار",
       "دو بار",
@@ -1016,7 +1016,7 @@
     "title": "شدت ابتلای شما به کرونا چگونه بوده است؟ ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "بدون علامت / خفیف (درمان در منزل)",
       "متوسط (نیاز به مراجعه پزشکی بدون بستری)",
@@ -1029,7 +1029,7 @@
     "title": "آیا پس از بهبودی از کوید19، هریک از موارد زیر را تجربه کرده‌اید؟ که حداقل چهار هفته یا بیشتر ادامه داشته باشد. \n  علائم جسمی یا بدنی:  ",
     "type": "CHECKBOX",
     "helpText": "می توانید چند گزینه انتخاب کنید",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خستگی مداوم یا کاهش انرژی",
       "تنگی نفس یا احساس کمبود هوا",
@@ -1045,7 +1045,7 @@
     "title": "آیا پس از بهبودی از کوید19، هریک از موارد زیر را تجربه کرده‌اید؟ که حداقل چهار هفته یا بیشتر ادامه داشته باشد. \nعلائم شناختی و روانی:  ",
     "type": "CHECKBOX",
     "helpText": "می توانید چند گزینه انتخاب کنید",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "کاهش تمرکز",
       "فراموشی یا کندی ذهن",
@@ -1059,7 +1059,7 @@
     "title": "آیا پس از بهبودی از کوید19، هریک از موارد زیر را تجربه کرده‌اید؟ که حداقل چهار هفته یا بیشتر ادامه داشته باشد. \nپیامدهای عملکردی: ",
     "type": "CHECKBOX",
     "helpText": "می توانید چند گزینه انتخاب کنید",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "کاهش توان کاری یا تحصیلی",
       "محدودیت در فعالیت‌های روزمره",
@@ -1074,13 +1074,13 @@
     "title": "سوماتیک",
     "type": "PAGE_BREAK",
     "helpText": "",
-    "isRequired": false
+    "isRequired": true
   },
   {
     "title": "علائم شما در هنگام ابتلا به کرونا و شدت علائم چه بوده است؟ (می‌توانید چند گزینه را انتخاب کنید)  ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "rows": [
       "تب",
       "سرفه",
@@ -1106,7 +1106,7 @@
     "title": "  در زمان ابتلا به کرونا کدام روش تشخیصی برای شما انجام شد؟ (می‌توانید بیش از یک مورد را انتخاب کنید)  ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "rows": [
       "سی تی اسکن",
       "پی سی آر"
@@ -1121,13 +1121,13 @@
     "title": "Past psychological history",
     "type": "PAGE_BREAK",
     "helpText": "",
-    "isRequired": false
+    "isRequired": true
   },
   {
     "title": "سوال اول: آیا پیش از شروع همه گیری کووید19 (قبل از سال ۲۰۲۰) سابقه ابتلا به هرگونه اختلال یا مشکل روان‌پزشکی تشخیص داده شده توسط پزشک یا روان‌درمانگر داشته‌اید؟",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیر",
       "بله",
@@ -1139,13 +1139,13 @@
     "title": "سابقه بیماری روانپزشکی پیش از کوید19",
     "type": "PAGE_BREAK",
     "helpText": "",
-    "isRequired": false
+    "isRequired": true
   },
   {
     "title": " لطفاً موارد زیر را که پیش از کرونا داشته‌اید علامت بزنید. (می‌توانید بیش از یک مورد را انتخاب کنید)  ",
     "type": "CHECKBOX",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "اختلال افسردگی",
       "اختلال وسواس فکری-عملی",
@@ -1164,7 +1164,7 @@
     "title": "سوال دوم: وضعیت کلی این مشکلات پیش از همه گیری کووید19 چگونه بوده است؟  ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خفیف و تحت کنترل",
       "متوسط",
@@ -1177,7 +1177,7 @@
     "title": "سوال سوم: آیا پیش از همه گیری کووید19 بابت این مشکلات درمان دریافت می‌کردید؟  ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیر",
       "بله، فقط دارویی",
@@ -1191,13 +1191,13 @@
     "title": "Past medical history",
     "type": "PAGE_BREAK",
     "helpText": "",
-    "isRequired": false
+    "isRequired": true
   },
   {
     "title": "  آیا پیش از شیوع همه گیری کووید19 (قبل از سال ۲۰۲۰) سابقه ابتلا به هرگونه بیماری جسمی تشخیص داده شده توسط پزشک داشته اید؟  ",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خیر",
       "بله",
@@ -1209,13 +1209,13 @@
     "title": "مشکلات جسمی پیش از همه گیری کووید19",
     "type": "PAGE_BREAK",
     "helpText": "",
-    "isRequired": false
+    "isRequired": true
   },
   {
     "title": "  در صورت وجود سابقه ی بیماری جسمی لطفا موارد زیر را که بیش از ۶ ماه داشته اید علامت بزنید (می توانید بیش از یک مورد انتخاب کنید):  ",
     "type": "CHECKBOX",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "بیماری های قلبی و عروقی",
       "دیابت",
@@ -1234,7 +1234,7 @@
     "title": "وضعیت کلی این بیماری ها پیش از همه گیری کووید19 چگونه بوده است؟",
     "type": "MULTIPLE_CHOICE",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "choices": [
       "خفیف و تحت کنترل",
       "متوسط",
@@ -1247,13 +1247,13 @@
     "title": " Whiteley-4 ",
     "type": "PAGE_BREAK",
     "helpText": "",
-    "isRequired": false
+    "isRequired": true
   },
   {
     "title": "آیا تا به حال احساس کرده‌اید که کوچکترین تغییر یا علامت در بدنتان نشانه یک بیماری خطرناک است؟",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "rows": [
       "قبل از همه گیری",
       "حین همه گیری",
@@ -1271,7 +1271,7 @@
     "title": "وقتی درباره بیماری خاصی می‌شنوید، یا نگران می‌شوید که شاید خودتان هم به آن مبتلا باشید؟",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "rows": [
       "قبل از همه گیری",
       "حین همه گیری",
@@ -1289,7 +1289,7 @@
     "title": "آیا برای اطمینان از سلامت خود زیاد به پزشک مراجعه می‌کنید یا آزمایش انجام می‌دهید؟",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "rows": [
       "قبل از همه گیری",
       "حین همه گیری",
@@ -1307,7 +1307,7 @@
     "title": "وقتی پزشک می‌گوید مشکلی ندارید، آیا هنوز فکر می‌کنید شاید بیماری پنهانی وجود داشته باشد؟",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "rows": [
       "قبل از همه گیری",
       "حین همه گیری",
@@ -1325,13 +1325,13 @@
     "title": "Sheehan-3",
     "type": "PAGE_BREAK",
     "helpText": "",
-    "isRequired": false
+    "isRequired": true
   },
   {
     "title": "  ۱- تا چه حد مشکلات روانی یا جسمی در عملکرد شغلی یا تحصیلی شما اختلال ایجاد کرده است؟  ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "rows": [
       "حین همه گیری",
 "بعد از همه گیری"
@@ -1348,7 +1348,7 @@
     "title": "۲- تا چه حد در زندگی اجتماعی یا اوقات فراغت شما اختلال ایجاد شده است؟ ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "rows": [
       "حین همه گیری",
 "بعد از همه گیری"
@@ -1365,7 +1365,7 @@
     "title": "تا چه حد در زندگی خانوادگی یا نقش های شما در خانه اختلال ایجاد شده است ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "rows": [
       "حین همه گیری",
 "بعد از همه گیری"
@@ -1382,13 +1382,13 @@
     "title": "PVS-6",
     "type": "PAGE_BREAK",
     "helpText": "",
-    "isRequired": false
+    "isRequired": true
   },
   {
     "title": "من به راحتی ناراحت می‌شوم ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "rows": [
       "حین همه گیری",
 "بعد از همه گیری"
@@ -1406,7 +1406,7 @@
     "title": "من به راحتی از انتقاد دیگران آزرده می‌شوم ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "rows": [
       "حین همه گیری",
 "بعد از همه گیری"
@@ -1424,7 +1424,7 @@
     "title": "اغلب احساس می‌کنم در برابر جهان اطرافم آسیب‌پذیرم ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "rows": [
       "حین همه گیری",
       "بعد از همه گیری"
@@ -1442,7 +1442,7 @@
     "title": "نسبت به رفتار دیگران با خودم بسیار حساس هستم. ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "rows": [
       "حین همه گیری",
       "بعد از همه گیری"
@@ -1460,7 +1460,7 @@
     "title": "به راحتی از نظر هیجانی آشفته می‌شوم ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "rows": [
       "حین همه گیری",
       "بعد از همه گیری"
@@ -1478,7 +1478,7 @@
     "title": "اغلب احساس می‌کنم برای مقابله با استرس‌های زندگی به اندازه کافی قوی نیستم ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "rows": [
       "حین همه گیری",
       "بعد از همه گیری"
@@ -1496,13 +1496,13 @@
     "title": "FCV-7",
     "type": "PAGE_BREAK",
     "helpText": "",
-    "isRequired": false
+    "isRequired": true
   },
   {
     "title": "من از کووید-۱۹ بیشتر می‌ترسم. ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "rows": [
       "حین همه گیری",
       "بعد از همه گیری"
@@ -1520,7 +1520,7 @@
     "title": "فکر کردن به کووید-۱۹ باعث ناراحتی من می‌شود. ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "rows": [
       "حین همه گیری",
       "بعد از همه گیری"
@@ -1538,7 +1538,7 @@
     "title": "وقتی به کووید-۱۹ فکر می‌کنم دست‌هایم مرطوب و سرد می‌شود. ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "rows": [
       "حین همه گیری",
       "بعد از همه گیری"
@@ -1556,7 +1556,7 @@
     "title": "من از اینکه زندگیم را بخاطر کوید19 از دست بدهم می‌ترسم. ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "rows": [
       "حین همه گیری",
       "بعد از همه گیری"
@@ -1574,7 +1574,7 @@
     "title": "وقتی اخبار و داستان‌های مربوط به کووید-۱۹ را در رسانه‌های اجتماعی تماشا می‌کنم عصبی یا مضطرب می‌شوم. ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "rows": [
       "حین همه گیری",
       "بعد از همه گیری"
@@ -1592,7 +1592,7 @@
     "title": "من نمی‌توانم بخوابم چون نگران ابتلا به کووید-۱۹ هستم. ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "rows": [
       "حین همه گیری",
       "بعد از همه گیری"
@@ -1610,7 +1610,7 @@
     "title": "وقتی به کووید-۱۹ فکر می‌کنم قلبم تند می‌زند یا تپش قلب می‌گیرم. ",
     "type": "GRID",
     "helpText": "",
-    "isRequired": false,
+    "isRequired": true,
     "rows": [
       "حین همه گیری",
       "بعد از همه گیری"
@@ -1628,12 +1628,12 @@
     "title": "پایان",
     "type": "PAGE_BREAK",
     "helpText": "از زمانی که برای تکمیل این پرسشنامه اختصاص دادید صمیمانه سپاسگزاریم. مشارکت شما به درک علمی عمیق‌تر تجربه‌های سلامت در دوران همه گیری و پس از آن کمک می‌کند.",
-    "isRequired": false
+    "isRequired": true
   },
   {
     "title": "در صورت تمایل، می‌توانید به‌صورت کاملاً اختیاری در چند جمله توضیح دهید که در آن دوران، بیشترین احساس، نگرانی یا تجربه‌ای که در ذهن شما باقی مانده چه بوده است و چگونه بر نگاه شما به بدن، سلامت یا آینده تأثیر گذاشته است. این بخش الزامی نیست و پاسخ‌ها همچنان کاملاً ناشناس خواهندبود.",
     "type": "PARAGRAPH_TEXT",
     "helpText": "",
-    "isRequired": false
+    "isRequired": true
   }
 ]
